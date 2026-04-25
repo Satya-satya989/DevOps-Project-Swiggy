@@ -3,19 +3,26 @@ import './RestaurentChain.css'
 
 function RestaurentChain() {
     return (
-        <div className='d-flex justify-content-center align-items-center mt-5'>
-            <div className='w-100'>
-                <h4 className='fw-bolder'>Top restaurant chains in Kochi</h4>
+        <div className='mt-5'>   {/* ❌ removed flex center */}
+            
+            {/* ✅ full width container */}
+            <div className='container-fluid'>
+                
+                <h4 className='fw-bolder mb-3'>Top restaurant chains in Kochi</h4>
 
-                <div style={{ gap: "50px", overflowX: "auto" }} className='d-flex align-items-center'>
+                <div 
+                    style={{ gap: "20px", overflowX: "auto" }} 
+                    className='d-flex'
+                >
 
                     {/* CARD */}
                     <div className='Hotel-card'>
-                        <div style={{
-                            backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xejp6fugbtzu08vpfqmu)`
-                        }} className='Hotel-Card-img '>
-
-                            {/* ✅ FIXED (no empty heading) */}
+                        <div
+                            style={{
+                                backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xejp6fugbtzu08vpfqmu)`
+                            }}
+                            className='Hotel-Card-img'
+                        >
                             <div className='Hotel-color'></div>
                         </div>
 
@@ -28,11 +35,12 @@ function RestaurentChain() {
 
                     {/* CARD */}
                     <div className='Hotel-card'>
-                        <div style={{
-                            backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hqskgt9wjjgqkj74coyw)`
-                        }} className='Hotel-Card-img '>
-
-                            {/* ✅ FIXED */}
+                        <div
+                            style={{
+                                backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hqskgt9wjjgqkj74coyw)`
+                            }}
+                            className='Hotel-Card-img'
+                        >
                             <div className='Hotel-color'></div>
                         </div>
 
@@ -45,19 +53,17 @@ function RestaurentChain() {
 
                     {/* CARD */}
                     <div className='Hotel-card'>
-                        <div style={{
-                            backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426)`
-                        }} className='Hotel-Card-img '>
-
-                            {/* ✅ FIXED */}
+                        <div
+                            style={{
+                                backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426)`
+                            }}
+                            className='Hotel-Card-img'
+                        >
                             <div className='Hotel-color'></div>
                         </div>
 
                         <h5 className='mt-3'>KFC</h5>
-
-                        {/* ❌ removed wrong text inside icon */}
                         <i style={{ color: "#20963a" }} className="fa-solid fa-star"></i> 4.1
-
                         <p style={{ fontWeight: "300" }}>
                             American, Burgers, Biriyani, Snacks <br />Kakkanad
                         </p>
@@ -65,11 +71,12 @@ function RestaurentChain() {
 
                     {/* CARD WITH OFFER */}
                     <div className='Hotel-card'>
-                        <div style={{
-                            backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ly5rzyg6tzwu4idmy4i1)`
-                        }} className='Hotel-Card-img '>
-
-                            {/* ✅ FIXED */}
+                        <div
+                            style={{
+                                backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ly5rzyg6tzwu4idmy4i1)`
+                            }}
+                            className='Hotel-Card-img'
+                        >
                             <div className='Hotel-color'>
                                 <h4 className='fw-bolder'>10% OFF UPTO ₹40</h4>
                             </div>
@@ -77,7 +84,6 @@ function RestaurentChain() {
 
                         <h5 className='mt-3'>Amma's Pastries</h5>
                         <i style={{ color: "#20963a" }} className="fa-solid fa-star"></i> 3.9
-
                         <p style={{ fontWeight: "300" }}>
                             Desserts, Bakery <br />Kakkanad
                         </p>

@@ -81,7 +81,7 @@ function RestaurentOnline() {
                         <div style={{
                             backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hqskgt9wjjgqkj74coyw)`
                         }} className='Online-Card-img '>
-                            <div className='Online-color'><h4 className='fw-bolder' ></h4></div>
+                            <div className='Online-color'><h4 className='fw-bolder' >kiran</h4></div>
                         </div>
                         <h5 className='mt-3'>The Burger Junction</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star"></i>4.5
@@ -92,7 +92,7 @@ function RestaurentOnline() {
                         <div style={{
                             backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426)`
                         }} className='Online-Card-img '>
-                            <div className='Online-color'><h4 className='fw-bolder' ></h4></div>
+                            <div className='Online-color'><h4 className='fw-bolder' >subbu</h4></div>
                         </div>
                         <h5 className='mt-3'>KFC</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star">20% OFF UPTO ₹50</i>4.1
